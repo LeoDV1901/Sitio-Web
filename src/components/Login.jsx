@@ -50,7 +50,7 @@ const Login = () => {
         setLoading(true);
         setError("");
         
-        axios.post("https://3.17.81.51/users/login", usuario, {
+        axios.post("https://18.188.32.86/users/login", usuario, {
             headers: { "Content-Type": "application/json" }
         })
         .then(response => {
